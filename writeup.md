@@ -29,32 +29,38 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 
-I made 2 pipelines: process_image and process_image_robust. Frist pipeline was written to process test videos while the second one I wrote in attempt to process the challenge video. 
-Both pipelines are similar in respect with the number of steps and the only difference is different set of parameters for Canny edge detection function and Hough lines function.
+I made 2 pipelines: process_image and process_image_robust. First pipeline was written to process test videos while the second one I wrote in attempt to process the challenge video. 
+Both pipelines are similar in respect with the number of steps and the only difference is different set of parameters used for Canny edge detection function and Hough lines function.
+
 
 ![Original image](./test_images_output/solidYellowCurve_output.jpg)
 
+
 The pipelines consist of 5 steps:
  
--Grayscaling, 
+**-Grayscaling,** 
 
-!["Grayscaled"](./test_images_output/solidYellowCurve_gray.jpg)
+![Grayscaled](./test_images_output/solidYellowCurve_gray.jpg)
 
--Blurring using Gaussian blur low pass filter,
 
-![alt text][image3] 
+**-Blurring using Gaussian blur low pass filter,**
 
--Canny edge detection,
+![Blurred image using Gaussian blur](./test_images_output/solidYellowCurve_gray_blurred.jpg) 
 
-![alt text](image4) 
 
--Applying region of interest mask,
+**-Canny edge detection,**
 
-![alt text][image5]
+![alt Detected edges](./test_images_output/solidYellowCurve_canny.jpg) 
 
--Drawing of the Hough lines on the color image.
 
-![alt text][image6]
+**-Applying region of interest mask,**
+
+![Region of interest mask applied](./test_images_output/solidYellowCurve_masked_canny.jpg)
+
+
+**-Drawing of the Hough lines on the color image.**
+
+![Lane lines detected using Hough transform](./test_images_output/solidYellowCurve_lines.jpg)
 
 
 Regarding the provided helper functions I made changes to the region_of_interest function and I wrote the draw_lines_continuos function in additon to draw_lines. The changes on 
