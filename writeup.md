@@ -32,7 +32,7 @@ The goals / steps of this project are the following:
 I made 2 pipelines: process_image and process_image_robust. Frist pipeline was written to process test videos while the second one I wrote in attempt to process the challenge video. 
 Both pipelines are similar in respect with the number of steps and the only difference is different set of parameters for Canny edge detection function and Hough lines function.
 
-![alt text][image1]
+![Original image](./test_images_output/solidYellowCurve_output.jpg)
 
 The pipelines consist of 5 steps:
  
