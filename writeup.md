@@ -15,12 +15,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/solidYellowCurve_output.jpg "Original image"
-[image2]: ./test_images_output/solidYellowCurve_gray.jpg "Grayscaled"
-[image3]: ./test_images_output/solidYellowCurve_gray_blurred.jpg "Blurred image using Gaussian blur"
-[image4]: ./test_images_output/solidYellowCurve_canny.jpg "Detected edges"
-[image5]: ./test_images_output/solidYellowCurve_masked_canny.jpg "Region of interest mask applied"
-[image6]: ./test_images_output/solidYellowCurve_lines.jpg "Lane lines detected using Hough transform"
+![image1]: ./test_images_output/solidYellowCurve_output.jpg "Original image"
+![image2]: ./test_images_output/solidYellowCurve_gray.jpg "Grayscaled"
+![image3]: ./test_images_output/solidYellowCurve_gray_blurred.jpg "Blurred image using Gaussian blur"
+![image4]: ./test_images_output/solidYellowCurve_canny.jpg "Detected edges"
+![image5]: ./test_images_output/solidYellowCurve_masked_canny.jpg "Region of interest mask applied"
+![image6]: ./test_images_output/solidYellowCurve_lines.jpg "Lane lines detected using Hough transform"
 ---
 
 ### Reflection
