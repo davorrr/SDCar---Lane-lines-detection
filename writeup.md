@@ -46,7 +46,7 @@ The pipelines consist of 5 steps:
 
 -Canny edge detection,
 
-![alt text][image4] 
+![alt text](image4) 
 
 -Applying region of interest mask,
 
