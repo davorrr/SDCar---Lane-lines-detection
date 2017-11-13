@@ -38,7 +38,7 @@ The pipelines consist of 5 steps:
  
 -Grayscaling, 
 
-![alt text][image2]
+!["Grayscaled"](./test_images_output/solidYellowCurve_gray.jpg)
 
 -Blurring using Gaussian blur low pass filter,
 
